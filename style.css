@@ -153,8 +153,7 @@ body, h1, h2, p, ul, li {
 #contact {
     text-align: center;
     justify-content: center;
-    margin-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 #contact h1 {
@@ -192,7 +191,7 @@ body, h1, h2, p, ul, li {
     max-width: 1000px;
     justify-content: space-around;
     margin: auto;
-    margin-top: 30px;
+    margin-top: px;
 }
 
 #contact .social-media {
@@ -327,8 +326,6 @@ body, h1, h2, p, ul, li {
 }
 
 
-
-
 .button-56 {
     align-items: center;
     font-family: 'Martian Mono', monospace;
@@ -351,11 +348,7 @@ body, h1, h2, p, ul, li {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    
-    
-
-
-  }
+}
   
   .button-56:after {
     background-color: #111;
@@ -423,11 +416,6 @@ body, h1, h2, p, ul, li {
    transition: ease-in 0.3s;
 }
 
-
-
-
-
-
 #github-sms {
     display: flex;
     justify-content: center;
@@ -440,3 +428,38 @@ body, h1, h2, p, ul, li {
 .sms-text {
     color: #202A44;;
 }
+
+#toggle-dark-mode h1 {
+    text-align: center;
+    padding: 70px 0px 70px 0;
+}
+
+.toggle-dark-mode {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #d4d8f0;
+
+}
+
+#dark-mode-picture {
+   width: 80%;
+   box-shadow: 15px 15px 15px 15px rgba(100,100,100,0.3);
+   transition: ease-in 0.3s;
+}
+
+
+#github-dark-mode {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 50%;
+
+}
+
+.dark-mode-text {
+    color: #202A44;;
+}
+
