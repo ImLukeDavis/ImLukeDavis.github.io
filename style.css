@@ -403,3 +403,43 @@ body, h1, h2, p, ul, li {
 .demo {
     background-color: black;
 }
+
+
+
+#student-management-system h1 {
+    text-align: center;
+    padding: 70px 0px 70px 0;
+}
+
+.student-management-system {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #d4d8f0;
+
+}
+
+#sms-picture {
+   width: 80%;
+   box-shadow: 15px 15px 15px 15px rgba(100,100,100,0.3);
+   transition: ease-in 0.3s;
+}
+
+
+
+
+
+
+#github-sms {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 50%;
+
+}
+
+.sms-text {
+    color: #202A44;;
+}
