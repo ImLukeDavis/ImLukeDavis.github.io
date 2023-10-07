@@ -407,6 +407,7 @@ body, h1, h2, p, ul, li {
     margin-top: 50px;
     padding: 50px;
     background-color: #d4d8f0;
+    height: 500px;
 
 }
 
@@ -440,11 +441,13 @@ body, h1, h2, p, ul, li {
     margin-top: 50px;
     padding: 50px;
     background-color: #d4d8f0;
+    height: 400px;
 
 }
 
 #dark-mode-picture {
-   width: 80%;
+   width: 90%;
+   height: 90%;
    box-shadow: 15px 15px 15px 15px rgba(100,100,100,0.3);
    transition: ease-in 0.3s;
 }
@@ -463,3 +466,21 @@ body, h1, h2, p, ul, li {
     color: #202A44;;
 }
 
+.fa-python {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #202A44;
+    translate: 450px -100px;
+
+}
+
+.lang-icons {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #202A44;
+    translate: 450px -100px;
+  
+
+}
