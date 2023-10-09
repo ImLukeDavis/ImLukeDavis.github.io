@@ -486,7 +486,113 @@ body, h1, h2, p, ul, li {
 }
 
 
+@media only screen and (max-width: 1200px){
+
+    
 
 
+    .nav-links li {
+    
+        margin-right: 20px;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    
+    .hero-subtext {
+        padding-bottom: 30px;
+        transform: translate(0%, -350%);
+    }
 
 
+    .hero-text {
+        font-size: 40px;
+        padding-bottom: 20px;
+        transform: translate(0%, -250%);
+    }
+
+    .student-management-system {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+        margin-top: 50px;
+        padding: 50px;
+        background-color: #d4d8f0;
+        height: 1250px;
+    
+    }
+
+    #student-management-system h1 {
+        text-align: center;
+        margin: 50px;
+    }
+
+    #sms-picture {
+        width: 80%;
+        box-shadow: 5px 5px 5px 5px rgba(100,100,100,0.3);
+        transition: ease-in 0.3s;
+        margin-bottom: 20px;
+     }
+
+
+     .social-medias {
+        padding-top: 50px;
+        margin: 10px;
+    }
+
+
+    .toggle-dark-mode {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+        margin-top: 50px;
+        padding: 50px;
+        background-color: #d4d8f0;
+        height: 900px;
+        width: 1180px;
+        
+    
+    }
+
+    #dark-mode-picture {
+        width: 90%;
+        height: 40%;
+        box-shadow: 5px 5px 5px 5px rgba(100,100,100,0.3);
+        transition: ease-in 0.3s;
+        margin-bottom: 20px;
+}
+
+
+.portfolio-heading {
+    text-align: center;
+    font-size: 40px;
+    color: #202A44;
+    padding-bottom: 100px;
+    margin: 10px;
+
+}
+
+
+#portfolio .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+    gap: 20px;
+    padding: 50px;
+    place-items: center;
+    max-width: 1200px;
+    margin: 20px
+
+}
+
+
+#portfolio .portfolio-title {
+    height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#202A44;
+    color: #d4d8f0;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px 5px rgba(100,100,100,0.3);
+}
+}
