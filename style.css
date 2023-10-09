@@ -507,7 +507,7 @@ body, h1, h2, p, ul, li {
     .hero-text {
         font-size: 40px;
         padding-bottom: 20px;
-        transform: translate(0%, -250%);
+        transform: translate(0%, -150%);
     }
 
     .student-management-system {
